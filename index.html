@@ -16,7 +16,8 @@
             <ul class="nav-menu">
                 <li class="nav-item"><a href="#home">Início</a></li>
                 <li class="nav-item"><a href="#about">Sobre</a></li>
-                <li class="nav-item"><a href="#projects">Projetos</a></li>
+                <li class="nav-item"><a href="#projects">Tipos</a></li>
+                <li class="nav-item"><a href="#portfolio">Portfólio</a></li>
                 <li class="nav-item"><a href="#contact">Contato</a></li>
             </ul>
         </div>
@@ -26,7 +27,7 @@
     <section class="hero" id="home">
         <div class="hero-content">
             <!-- Substitua o src abaixo pela sua foto -->
-            <img src="img/foto.jpg" alt="Sua Foto" class="profile-img">
+            <img src="img/teste.jpeg" alt="Sua Foto" class="profile-img">
             <h1>João Neto</h1>
             <p>Desenvolvedor Full Stack | Criando soluções digitais incríveis</p>
             <a href="#contact" class="cta-button">Entre em Contato</a>
@@ -39,10 +40,20 @@
             <h2>Sobre Mim</h2>
             <div class="about-content">
                 <p>
-                    Olá! Sou um desenvolvedor apaixonado por tecnologia e inovação. Com experiência em diversas
-                    tecnologias,
-                    trabalho criando soluções digitais que fazem a diferença. Meu foco está em desenvolver aplicações
-                    modernas, eficientes e que proporcionem uma excelente experiência do usuário.
+                     Desenvolvedor Web Full Stack formado em Desenvolvimento de Sistemas pelo SENAI. Tenho paixão por
+                      transformar requisitos em soluções digitais funcionais, com foco em escrever código limpo e
+                      eficiente.
+                     ​Possuo experiência prática no desenvolvimento de aplicações ponta a ponta, desde a criação de
+                      interfaces responsivas e interativas com HTML5, CSS3 e JavaScript, até a implementação de lógica de
+                      negócio e gestão de bases de dados com PHP e MySQL.
+                      ​Durante a minha formação, desenvolvi projetos relevantes como um Sistema de Gestão de Pedidos, onde
+                      apliquei conceitos de arquitetura de software, integração com bancos de dados e experiência do
+                      utilizador (UX).
+                    ​ Stack Técnica:
+                      ​Frontend: HTML5, CSS3, JavaScript (ES6)
+                    ​  Backend: PHP
+                    ​  Banco de Dados: MySQL
+                    ​  Ferramentas: Git, GitHub, VS Code
                 </p>
                 <br>
                 <p>
@@ -53,10 +64,10 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
+    <!-- Projects Types Section -->
     <section class="section" id="projects">
         <div class="container">
-            <h2>Meus Projetos</h2>
+            <h2>Tipos de Projetos</h2>
             <div class="projects-grid">
                 <div class="project-card">
                     <i class="fas fa-globe"></i>
@@ -77,6 +88,44 @@
                     <i class="fas fa-database"></i>
                     <h3>Sistema Web</h3>
                     <p>Sistema web robusto para gerenciamento de dados e processos empresariais.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Real Portfolio Section - NOVA SEÇÃO -->
+    <section class="section" id="portfolio">
+        <div class="container">
+            <h2>Meus Projetos</h2>
+            <div class="real-projects-grid">
+
+                <!-- Projeto 1 - EXEMPLO -->
+                <div class="real-project-card">
+                    <img src="img/Inserir um título (3).png" alt="Projeto 1" class="project-image">
+                    <div class="project-content">
+                        <h3>Automação de Pedidos</h3>
+                        <p>Um cardápio online que pode ser acessado no proprio estabelecimento para consumação local ou
+                            retirada e delivery.
+                            Oferece um facil manuseio para pessoas que não tem facilidade com tal sistema</p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://hamburguerhouseup.gt.tc/?i=1" class="project-link link-demo"
+                                target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                Ver Demo
+                            </a>
+                            <a href="https://github.com/neto23batista/Burger" class="project-link link-code"
+                                target="_blank">
+                                <i class="fab fa-github"></i>
+                                Código
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -115,11 +164,12 @@
                         <i class="fab fa-whatsapp"></i>
                         WhatsApp
                     </a>
-                    <a href="https://linkedin.com/in/seu-perfil" target="_blank" class="social-btn linkedin">
+                    <a href="https://www.linkedin.com/in/joao-neto-0295963a3/" target="_blank"
+                        class="social-btn linkedin">
                         <i class="fab fa-linkedin-in"></i>
                         LinkedIn
                     </a>
-                    <a href="https://github.com/FrazaoNeto23" target="_blank" class="social-btn github">
+                    <a href="https://github.com/neto23batista" target="_blank" class="social-btn github">
                         <i class="fab fa-github"></i>
                         GitHub
                     </a>
@@ -128,11 +178,7 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
-    </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="script.js"></script>
 </body>
 
